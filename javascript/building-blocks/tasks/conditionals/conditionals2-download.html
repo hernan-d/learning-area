@@ -26,9 +26,18 @@
   <script>
     let response;
     let score = 75;
-    let machineActive = false;
+    let machineActive = true;
   
     // Add your code here
+
+    if (machineActive == true) {
+      if (score >=70 && score <=89) {
+        response = "That\'s a great score, you really know your stuff.";
+      }
+      
+    } else {
+      response = "Turn on the machine!";
+    }
 
     // Don't edit the code below here!
 
